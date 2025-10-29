@@ -664,15 +664,17 @@ main {
   padding: 0;              // sem padding extra no <p> (já tem no container)
 }
 
-/* === Variante escura (para modo dark) === */
+/* === Variante escura (modo dark) === */
 body.dark-theme .inner-content .welcome-message {
-  background-color: rgba(50, 50, 50, 0.85);
+  background-color: rgba(200, 190, 180, 0.15); // tom bege suave e translúcido
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
 }
 
 body.dark-theme .inner-content .welcome-message h2,
 body.dark-theme .inner-content .welcome-message p {
-  color: $color-beige;
+  color: #F1EBE5; // o mesmo bege claro usado no tema
 }
+
 
 /* === Responsivo — mantém proporcional em telas menores === */
 @include mq(tablet) {
