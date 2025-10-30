@@ -68,14 +68,12 @@
             </div>
             <div class="inner-content">
                 {% include category.html %}
-                {% if page.url == "/" %}
+                {% if page_type == "category" %}
     <div class="welcome-message">
         <h2>🐝 Bem-Vindo(a) ao Data Honey! 🍯</h2>
         <p>Este é o meu diário de aprendizados digital, onde eu compartilho minha jornada e aprendizados do universo da Análise de Dados. Um pouco de tudo: SQL, Python, Qlik, organização e cursos. 
         Meu objetivo é poder mostrar um pouco ao mundo como eu levo o crescimento da minha carreira de forma diária.  </p>
     </div>
-{% endif %}
-                {% if page_type == "category" %}
                     {% include loading.html %}
                     {% include pagination.html %}
                 {% else %}
