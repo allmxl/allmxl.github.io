@@ -10,7 +10,7 @@ date: "2023-12-01"
 
 ```
 ---
-title: "Example Post: thumbnail exists"
+title: "Mel TESTE TESTE"
 date: "2023-12-02"
 thumbnail: "/assets/img/thumbnail/bricks.webp"
 ---
